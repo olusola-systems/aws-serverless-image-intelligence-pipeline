@@ -10,7 +10,8 @@ I provisioned the infrastructure with Terraform so the entire environment can be
 
 ## Architecture
 
-#
+<img width="1536" height="1024" alt="ChatGPT Image Oct 4, 2026, 01_58_54 PM" src="https://github.com/user-attachments/assets/50a62a0f-7c5e-4468-84ca-a554c5945eb3" />
+
 
 The pipeline follows this flow:
 
@@ -245,6 +246,32 @@ The final system automatically analyzes uploaded images, identifies objects and 
 
 This project extended my previous serverless work from simply storing and querying image metadata into using AWS-managed machine learning capabilities to extract intelligence from the images themselves.
 
+## Screenshots
+
+## S3 uploaded image
+<img width="2880" height="1800" alt="S3 — Uploaded Image" src="https://github.com/user-attachments/assets/b947b95b-90ec-48ce-9dd1-911284f9bcf9" />
+
+
+## Lambda function/trigger
+<img width="2880" height="1800" alt="Lambda — Function Overview" src="https://github.com/user-attachments/assets/ae6c2d5f-153a-48fc-b782-a6a3165b27ec" />
+
+
+## CloudWatch successful analysis
+<img width="2880" height="1800" alt="CloudWatch — Successful Analysis" src="https://github.com/user-attachments/assets/e7aae012-f4b6-4b39-a5c8-3078c6ef9fb9" />
+
+
+## DynamoDB results
+<img width="2880" height="1800" alt="DynamoDB — Analysis Results" src="https://github.com/user-attachments/assets/efd18361-a410-4fe3-806f-81e8331f56bf" />
+
+
+## Expanded Rekognition labels
+<img width="2880" height="1800" alt="DynamoDB — Expanded Labels" src="https://github.com/user-attachments/assets/3659ce1c-a137-4988-b32b-03ddda1c219d" />
+
+
+## Terraform Apply
+<img width="2880" height="1800" alt="8" src="https://github.com/user-attachments/assets/2342113e-4995-4770-9d4b-2c17bd4ba8e5" />
+
+
 ## Next Project
 
-In the next project, I plan to build on this image intelligence pipeline by introducing an application layer that can interact with the analysis results, moving from an automated backend processing pipeline toward a complete serverless application experience.
+In the next project, I plan to build on this image intelligence pipeline by introducing an application layer that can interact with the analysis results, moving from an automated back-end processing pipeline towards a complete serverless application experience.
